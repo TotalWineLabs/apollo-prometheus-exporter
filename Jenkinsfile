@@ -1,0 +1,3 @@
+publishNodePackage {
+  yarnEnabled = true
+}
