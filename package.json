@@ -18,7 +18,7 @@
   "homepage": "https://github.com/totalwinelabs/apollo-prometheus-exporter#readme",
   "repository": "github:totalwinelabs/apollo-prometheus-exporter",
   "scripts": {
-    "postinstall": "husky install",
+    "prepare": "husky install",
     "start": "yarn example:start:watch",
     "build": "yarn lib:build",
     "release": "yarn lib:release",
