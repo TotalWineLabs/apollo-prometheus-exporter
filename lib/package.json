@@ -1,7 +1,10 @@
 {
   "name": "@totalwinelabs/apollo-prometheus-exporter",
-  "version": "0.0.0-development",
-  "description": "Plugin for Apollo Server to export metrics in Prometheus format",
+  "version": "3.0.5",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "description": "(Forked & Customized) Plugin for Apollo Server to export metrics in Prometheus format",
   "keywords": [
     "apollo",
     "apollo server",
@@ -12,8 +15,8 @@
   "author": "Bogdan Matei <bogdan@matei.dev>",
   "license": "MIT",
   "main": "index.js",
-  "homepage": "https://github.com/bfmatei/apollo-prometheus-exporter#readme",
-  "repository": "github:bfmatei/apollo-prometheus-exporter",
+  "homepage": "https://github.com/totalwinelabs/apollo-prometheus-exporter#readme",
+  "repository": "github:totalwinelabs/apollo-prometheus-exporter",
   "peerDependencies": {
     "prom-client": "^12.0.0 || ^13.0.0 || ^14.0.0"
   }
