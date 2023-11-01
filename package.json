@@ -1,6 +1,6 @@
 {
   "name": "@totalwinelabs/apollo-prometheus-exporter",
-  "version": "3.0.5",
+  "version": "3.0.6",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
@@ -21,7 +21,7 @@
     "prepare": "husky install",
     "start": "yarn example:start:watch",
     "build": "yarn lib:build",
-    "publish": "yarn build && yarn publish dist",
+    "prepublish": "yarn build",
     "release": "yarn lib:release",
     "prettier": "prettier --write \"./**/*.{ts,json,graphql,yaml,md}\"",
     "lint-staged": "lint-staged",
